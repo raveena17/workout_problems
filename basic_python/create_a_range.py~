@@ -1,0 +1,12 @@
+def create_a_range(start=2,end=10,step=2):
+    empty=[]
+
+    while (start<=end):
+        empty.append(start)
+	
+	start+=step
+
+    return empty
+
+
+

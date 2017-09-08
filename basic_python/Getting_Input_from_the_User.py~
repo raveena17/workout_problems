@@ -1,0 +1,8 @@
+def getting20():
+    number=float(raw_input('Enter the value:'))
+    getting201=number+42
+    
+    print(number,'+43=',getting201)
+
+
+getting20()

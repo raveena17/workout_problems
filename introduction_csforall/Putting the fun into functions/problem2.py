@@ -1,0 +1,43 @@
+#problem 2
+
+# What is the return statement that satisfies these input/output constraints? You may run these and any other example input you wish from this page
+
+# an input of 2 returns 4
+
+# an input of 5 returns 32
+
+# an input of 30 returns 1073741824
+
+
+
+# an input of 2 returns 4
+
+def f(x):
+    return x*2
+
+>>> f(2)
+4
+
+
+# an input of 5 returns 32
+
+def t(x):
+    return ((x**2)+(x+2))
+
+>>> t(5)
+32
+
+
+# an input of 30 returns 1073741824
+
+def t(x):
+	y=35791394.13
+	return (x*y)
+
+>>> t(30)
+1073741823.9000001
+
+
+
+
+
